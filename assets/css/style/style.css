@@ -1,3 +1,7 @@
+body {
+    background-color: red;
+}
+
 .firstp {
     font-size: 25px;
     text-align: left;
@@ -13,7 +17,7 @@
    
     width: 500px;
 }
-.profolie {
+.profile {
     border: 2px solid #ddd;
     border-radius: 4px;
     padding: 5px;
@@ -55,3 +59,17 @@
    font-size: 100px;
 }
 
+@media (max-width:500px){
+    body{
+        background-color: blue;
+    }    
+    
+    .profile {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+    
+}
