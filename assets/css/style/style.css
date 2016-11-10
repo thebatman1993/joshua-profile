@@ -1,24 +1,58 @@
 body {
     background-color: red;
 }
+.navbar{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    
+    
+
+}
+.navitems {
+    display: block;
+    color: white;
+    text-align: center;
+    display: inline;
+    float: left;
+    padding:11px;
+    text-decoration: none;
+    
+    
+}
+a{
+   text-decoration: none;
+    color: white;
+}
+h1{
+    border: 2px solid #ddd;
+    width: 250px;
+    text-align: center;
+}
 
 .firstp {
     font-size: 25px;
     text-align: left;
     font-family:fantasy;
     width: 500px;
+    border: 2px solid #ddd;
+    padding: 5px;
 }
 .secondp{
     font-size: 25px;
    text-align: left;
      font-family:fantasy;
-   
+   border: 2px solid #ddd;
     width: 500px;
+    padding: 5px;
+    
 }
 .profile {
     border: 2px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
+    
+    
     width: 250px;
     height: 250px;
 }
@@ -28,7 +62,10 @@ body {
     border: 1px solid black;
 }
 .contact{
-    list-style-type: none;
+    
+    border: 2px solid #ddd;
+    padding: 5px;
+    
 }
 
 .art{
@@ -56,6 +93,24 @@ body {
 .ficon{
    font-size: 100px;
 }
+
+.container {
+    
+
+
+
+    position:absolute;
+    top: 20%;
+    left: 37%;
+    width:55em;
+    height:18em;
+    margin-top: -9em;
+    margin-left: -15em;
+   
+    
+    }
+    
+
 
 @media (max-width:500px){
     body{
